@@ -1,5 +1,5 @@
-```graph TD
-  Start[Start Emergency Response] --> Assess[Assess Incident Type<br>Minor or Major]
+graph TD
+  ```Start[Start Emergency Response] --> Assess[Assess Incident Type<br>Minor or Major]
   Assess -- Minor Incident --> Minor[Minor Incident<br>(Handled locally)]
   Minor -- No further action --> End[End Emergency Response]
   Assess -- Major Incident --> Meet[Meet Facilities Manager<br>in Front of Reception]
