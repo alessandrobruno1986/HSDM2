@@ -1,5 +1,3 @@
-# HSDM2
-Flowchart
 ```mermaid
 graph TD
   Start[Start Emergency Response] --> Assess[Assess Incident Type<br>Minor or Major]
