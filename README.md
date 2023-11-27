@@ -1,4 +1,4 @@
-graph TD
+```graph TD
 Start[Start Emergency Response] --> Assess[Assess Incident Type<br>Minor or Major]
 Assess -- Minor Incident --> Minor[Minor Incident Handled locally]
 Minor -- No further action --> End[End Emergency Response]
@@ -7,4 +7,4 @@ Meet -- Facilities Manager not available --> Standby[Contact Standby Manager<br>
 Standby -- No Crisis Management Team response --> ContactEmergency[Contact Emergency Services<br>and External Bodies]
 ContactEmergency -- No response from Emergency Services --> Alternative[Take Alternative Actions<br>to Safeguard People and Property]
 ContactEmergency -- Emergency Services respond --> Coordinate[Coordinate with Crisis<br>Management Team]
-Coordinate -- End Emergency Response --> End
+Coordinate -- End Emergency Response --> End```
